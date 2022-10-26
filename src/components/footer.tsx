@@ -1,10 +1,8 @@
-import * as React from 'react'
-
-class Footer extends React.Component <{}> {
-  render(){
-    return(
-      <div>Footer</div>
-    );
+import * as React from "react";
+import FooterStyle from "../styles/footer.style";
+class Footer extends React.Component<{}> {
+  render() {
+    return <FooterStyle></FooterStyle>;
   }
 }
-export default Footer
+export default Footer;
