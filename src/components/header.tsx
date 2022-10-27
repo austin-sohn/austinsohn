@@ -20,11 +20,23 @@ class Header extends React.Component<{}> {
         <ColorButton variant="text" href="/">
           Austin Sohn
         </ColorButton>
-        <IconButton href="https://www.linkedin.com/in/austin-sohn-9bb721230/">
-          <LinkedInIcon />
+        <IconButton>
+          <a
+            href="https://www.linkedin.com/in/austin-sohn-9bb721230/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <LinkedInIcon style={{ color: "black" }} />
+          </a>
         </IconButton>
-        <IconButton href="https://github.com/austin-sohn">
-          <GitHubIcon />
+        <IconButton>
+          <a
+            href="https://github.com/austin-sohn"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <GitHubIcon style={{ color: "black" }} />
+          </a>
         </IconButton>
       </HeaderStyle>
     );
