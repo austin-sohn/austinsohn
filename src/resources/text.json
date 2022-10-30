@@ -1,0 +1,25 @@
+[
+  {
+    "personalInfo": {
+      "name": "Austin Sohn",
+      "email": "sohn.austin@gmail.com"
+    },
+    "education": {
+      "FullColl": {
+        "name": "Fullerton College",
+        "degrees": ["math", "comp sci", "something else idr"],
+        "yearGraduated": "2020"
+      },
+      "CSUF": {
+        "name": "California State University, Fullerton",
+        "degrees": "Computer Science",
+        "yearGraduated": "2022"
+      }
+    },
+    "skills": {
+      "Programming Languages": "Javascript, Python, C++, and R",
+      "Frameworks": "1 year of React, and hug",
+      "Others": "I am familiar with Node.JS, MongoDB, Redis, SQLite3, PyQt6, Tkinter, Pygame"
+    }
+  }
+]

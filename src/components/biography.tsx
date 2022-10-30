@@ -1,8 +1,13 @@
 import * as React from "react";
-
+import BiographyStyle from "../styles/biography.style";
 class Biography extends React.Component<{}> {
   render() {
-    return <div>Bio</div>;
+    return (
+      <BiographyStyle id="Biography">
+        Bio
+        <div></div>
+      </BiographyStyle>
+    );
   }
 }
 

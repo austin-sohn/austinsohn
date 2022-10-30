@@ -8,5 +8,8 @@ const HeaderStyle = styled.div`
   width: 100vw;
   height: 55.5px;
 `;
-
-export { HeaderStyle };
+const HeaderRight = styled(HeaderStyle)`
+  width: 85px;
+  right: 0;
+`;
+export { HeaderStyle, HeaderRight };

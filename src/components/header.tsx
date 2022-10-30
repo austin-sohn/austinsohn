@@ -1,5 +1,5 @@
 import * as React from "react";
-import { HeaderStyle } from "../styles/header.style";
+import { HeaderStyle, HeaderRight } from "../styles/header.style";
 import { styled } from "@mui/material/styles";
 import { IconButton } from "@mui/material";
 import Button from "@mui/material/Button";
@@ -16,29 +16,33 @@ const ColorButton = styled(Button)(({ theme }) => ({
 class Header extends React.Component<{}> {
   render() {
     return (
-      <HeaderStyle>
-        <ColorButton variant="text" href="/">
-          Austin Sohn
-        </ColorButton>
-        <IconButton>
-          <a
-            href="https://www.linkedin.com/in/austin-sohn-9bb721230/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <LinkedInIcon style={{ color: "black" }} />
-          </a>
-        </IconButton>
-        <IconButton>
-          <a
-            href="https://github.com/austin-sohn"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <GitHubIcon style={{ color: "black" }} />
-          </a>
-        </IconButton>
-      </HeaderStyle>
+      <>
+        <HeaderStyle id="Header">
+          <ColorButton id="home-button" variant="text" href="/">
+            Austin Sohn
+          </ColorButton>
+        </HeaderStyle>
+        <HeaderRight id="Links">
+          <IconButton id="linkedin-button">
+            <a
+              href="https://www.linkedin.com/in/austin-sohn-9bb721230/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <LinkedInIcon style={{ color: "black" }} />
+            </a>
+          </IconButton>
+          <IconButton id="github-button">
+            <a
+              href="https://github.com/austin-sohn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <GitHubIcon style={{ color: "black" }} />
+            </a>
+          </IconButton>
+        </HeaderRight>
+      </>
     );
   }
 }

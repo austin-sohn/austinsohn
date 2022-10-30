@@ -4,8 +4,7 @@ import ResumeStyle from "../styles/resume.style";
 class resume extends React.Component<{}> {
   render() {
     return (
-      <ResumeStyle>
-        <div>resume</div>
+      <ResumeStyle id="Resume">
         <Biography />
       </ResumeStyle>
     );
