@@ -2,17 +2,15 @@ import styled from "styled-components";
 
 const FooterStyle = styled.div`
   display: flex;
-  position: sticky;
+  position: absolute;
   justify-content: center;
   align-items: center;
   width: 100vw;
-  top: 100vh;
+  bottom: 0;
   background-color: #99aab5;
   color: black;
-  max-height: 15vh;
+  height: 10vh;
   flex-direction: column;
-  overflow: hidden;
-  z-index: 9;
 `;
 const FooterTitle = styled.div`
   font-size: 25px;
