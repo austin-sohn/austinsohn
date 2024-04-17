@@ -2,7 +2,9 @@
   {
     "personalInfo": {
       "name": "Austin Sohn",
-      "email": "sohn.austin@gmail.com"
+      "email": "sohn.austin@gmail.com",
+      "phoneNumber": "(123) 456 7890",
+      "location": "Los Angeles, CA"
     },
     "education": {
       "name": "California State University, Fullerton",
