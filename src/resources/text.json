@@ -5,11 +5,9 @@
       "email": "sohn.austin@gmail.com"
     },
     "education": {
-      "CSUF": {
-        "name": "California State University, Fullerton",
-        "degrees": "B.S. Computer Science",
-        "yearGraduated": "2022"
-      }
+      "name": "California State University, Fullerton",
+      "degree": "B.S. Computer Science",
+      "yearGraduated": "2022"
     },
     "skills": {
       "programmingLanguages": ["Javascript", "Python", "C++", "R"],
