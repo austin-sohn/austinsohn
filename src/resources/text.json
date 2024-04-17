@@ -10,7 +10,7 @@
       "yearGraduated": "2022"
     },
     "skills": {
-      "programmingLanguages": ["Javascript", "Python", "C++", "R"],
+      "languages": ["Javascript", "Python", "C++", "R"],
       "frameworks": ["React", "Hug"],
       "others": ["MongoDB", "Redis", "SQLite3", "PyQt6", "Tkinter", "Pygame"]
     }
