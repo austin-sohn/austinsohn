@@ -7,7 +7,7 @@ class Footer extends React.Component<{}> {
       <FooterStyle id="Footer">
         <FooterTitle id="footer-heading">Quick Links</FooterTitle>
         <FooterLink
-          href="https://www.youtube.com/playlist?list=PLMeE5U_hEiCYOhDIw6r94mIeuHTSXibAY"
+          href="https://www.youtube.com/@tohroo/videos"
           target="_blank"
           id="youtube-link"
         >
