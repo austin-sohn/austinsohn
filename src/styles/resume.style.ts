@@ -8,4 +8,18 @@ const ResumeStyle = styled.div`
   padding: 1vh;
 `;
 
-export default ResumeStyle;
+const PInfoStyle = styled.div`
+  position: absolute;
+  background-color: red;
+`;
+const EducationStyle = styled.div`
+  position: absolute;
+  background-color: green;
+  left: 30%;
+`;
+const SkillStyle = styled.div`
+  position: absolute;
+  background-color: blue;
+  left: 60%;
+`;
+export { ResumeStyle, PInfoStyle, EducationStyle, SkillStyle };
