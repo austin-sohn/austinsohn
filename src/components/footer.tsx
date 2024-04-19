@@ -4,7 +4,6 @@ import {
   FooterTitle,
   IconStyle,
   CreditStyle,
-  LinkStyle,
 } from "../styles/footer.style";
 import { IconButton } from "@mui/material";
 import GitHubIcon from "@mui/icons-material/GitHub";
