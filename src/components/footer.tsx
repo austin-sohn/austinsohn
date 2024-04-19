@@ -1,4 +1,4 @@
-import * as React from "react";
+import React from "react";
 import { FooterStyle, FooterTitle, FooterLink } from "../styles/footer.style";
 
 class Footer extends React.Component<{}> {
