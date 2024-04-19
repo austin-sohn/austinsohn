@@ -1,7 +1,11 @@
 import styled from "styled-components";
 
+const Test = styled.a`
+  scroll-behavior: smooth;
+`;
 const LandingStyle = styled.div`
   margin-top: 55.5px;
+  height: 100svh;
 `;
 const CircleStyle = styled.div`
   width: 330px;
@@ -16,4 +20,4 @@ const CircleStyle = styled.div`
   border-radius: 50%;
 `;
 
-export { LandingStyle, CircleStyle };
+export { LandingStyle, CircleStyle, Test };

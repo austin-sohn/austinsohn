@@ -8,30 +8,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import { red } from "@mui/material/colors";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
-
-declare module "@mui/material/styles" {
-  interface Palette {
-    white: Palette["primary"];
-  }
-
-  interface PaletteOptions {
-    white?: PaletteOptions["primary"];
-  }
-}
-
-// Update the Button's color options to include anwhite option
-declare module "@mui/material/Button" {
-  interface ButtonPropsColorOverrides {
-    white: true;
-  }
-}
-const theme = createTheme({
-  palette: {
-    white: {
-      main: "#FFFFF",
-    },
-  },
-});
+import theme from "../resources/theme";
 
 class Header extends React.Component<{}> {
   render() {

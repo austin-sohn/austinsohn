@@ -1,32 +1,77 @@
 import React from "react";
-import { FooterStyle, FooterTitle, FooterLink } from "../styles/footer.style";
+import {
+  FooterStyle,
+  FooterTitle,
+  IconStyle,
+  CreditStyle,
+  LinkStyle,
+} from "../styles/footer.style";
+import { IconButton } from "@mui/material";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import YouTubeIcon from "@mui/icons-material/YouTube";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import Button from "@mui/material/Button";
+import { ThemeProvider } from "@mui/material/styles";
+import theme from "../resources/theme";
 
 class Footer extends React.Component<{}> {
   render() {
     return (
       <FooterStyle id="Footer">
         <FooterTitle id="footer-heading">Quick Links</FooterTitle>
-        <FooterLink
-          href="https://www.youtube.com/@tohroo/videos"
-          target="_blank"
-          id="youtube-link"
-        >
-          Youtube
-        </FooterLink>
-        <FooterLink
-          href="https://www.linkedin.com/in/austin-sohn-9bb721230/"
-          target="_blank"
-          id="linkedin-link"
-        >
-          LinkedIn
-        </FooterLink>
-        <FooterLink
-          href="https://github.com/austin-sohn"
-          target="_blank"
-          id="github-link"
-        >
-          GitHub
-        </FooterLink>
+        <IconStyle>
+          <IconButton>
+            <a
+              href="https://github.com/austin-sohn"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <GitHubIcon style={{ color: "white" }} />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/austin-sohn-9bb721230/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <LinkedInIcon style={{ color: "white" }} />
+            </a>
+            <a
+              href="https://www.youtube.com/@tohroo/videos"
+              target="_blank"
+              rel="noreferrer"
+              id="youtube-link"
+            >
+              <YouTubeIcon style={{ color: "white" }}></YouTubeIcon>
+            </a>
+          </IconButton>
+        </IconStyle>
+        <CreditStyle>
+          <ThemeProvider theme={theme}>
+            <text>Credits: Buttons and icons are from </text>
+            <Button
+              variant="outlined"
+              href="https://mui.com/material-ui/"
+              target="_blank"
+              rel="noreferrer"
+              sx={{ minHeight: 0, minWidth: 0, padding: 0.1 }}
+              color="white"
+            >
+              MUI
+            </Button>
+            <text> and the background is Endless Constellation from </text>
+
+            <Button
+              variant="outlined"
+              href="https://www.svgbackgrounds.com/set/free-svg-backgrounds-and-patterns/"
+              target="_blank"
+              rel="noreferrer"
+              sx={{ minHeight: 0, minWidth: 0, padding: 0.1 }}
+              color="white"
+            >
+              SVGBackgrounds
+            </Button>
+          </ThemeProvider>
+        </CreditStyle>
       </FooterStyle>
     );
   }

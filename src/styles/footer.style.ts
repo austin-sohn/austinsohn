@@ -5,25 +5,25 @@ const FooterStyle = styled.div`
   position: absolute;
   justify-content: center;
   align-items: center;
-  width: 100vw;
-  bottom: 0;
-  background-color: #99aab5;
-  color: black;
-  height: 10vh;
   flex-direction: column;
+  bottom: 0;
+  background-color: transparent;
+  color: white;
+
+  width: 100%;
+
+  border-color: red;
+`;
+const IconStyle = styled.div`
+  flex-direction: row;
 `;
 const FooterTitle = styled.div`
   font-size: 25px;
-  padding: 5px;
 `;
 
-const FooterLink = styled.a`
+const LinkStyle = styled.a`
   text-decoration: none;
-  color: black;
-  padding: 5px;
-  max-width: 60px;
-  @media (max-height: 600px) {
-    padding: 0;
-  }
+  color: white;
 `;
-export { FooterStyle, FooterTitle, FooterLink };
+const CreditStyle = styled.div``;
+export { FooterStyle, FooterTitle, IconStyle, CreditStyle, LinkStyle };
