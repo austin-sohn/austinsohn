@@ -1,13 +1,11 @@
 import React from "react";
 import { HeaderStyle, HeaderRight } from "../styles/header.style";
-import { styled } from "@mui/material/styles";
 import { IconButton } from "@mui/material";
 import Button from "@mui/material/Button";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 // import InstagramIcon from '@mui/icons-material/Instagram';
 import GitHubIcon from "@mui/icons-material/GitHub";
-import { red } from "@mui/material/colors";
-import { createTheme, ThemeProvider } from "@mui/material/styles";
+import { ThemeProvider } from "@mui/material/styles";
 import theme from "../resources/theme";
 
 class Header extends React.Component<{}> {
