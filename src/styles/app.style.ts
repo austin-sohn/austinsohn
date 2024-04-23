@@ -17,15 +17,8 @@ const ScrollStyle = styled.div`
 
   &::-webkit-scrollbar {
     width: 5px;
-    border: 1px solid black;
+    border: 1px solid transparent;
   }
-
-  &::-webkit-scrollbar-track {
-    margin-top: 55.5px;
-    box-shadow: inset 0 0 5px grey;
-    border-radius: 5px;
-  }
-
   &::-webkit-scrollbar-thumb {
     background: grey;
     border-radius: 5px;
