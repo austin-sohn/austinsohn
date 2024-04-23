@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 const FooterStyle = styled.div`
   display: flex;
-  position: absolute;
   justify-content: center;
   align-items: center;
   flex-direction: column;

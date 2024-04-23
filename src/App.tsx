@@ -1,7 +1,7 @@
 import Header from "./components/header";
 import Footer from "./components/footer";
 import Landing from "./components/landing";
-import HomePage from "./styles/app.style";
+import { HomePage, ScrollStyle } from "./styles/app.style";
 import backgroundSVG from "./resources/endless-constellation.svg";
 import Projects from "./components/projects";
 import Contact from "./components/contact";
@@ -13,10 +13,12 @@ function App() {
       style={{ backgroundImage: `url(${backgroundSVG})` }}
     >
       <Header />
-      <Landing />
-      <Projects />
-      <Contact />
-      <Footer />
+      <ScrollStyle>
+        <Landing />
+        <Projects />
+        <Contact />
+        <Footer />
+      </ScrollStyle>
     </HomePage>
   );
 }
