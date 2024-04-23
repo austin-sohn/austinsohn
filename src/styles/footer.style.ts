@@ -6,7 +6,7 @@ const FooterStyle = styled.div`
   align-items: center;
   flex-direction: column;
   bottom: 0;
-  background-color: transparent;
+  background-color: black;
   color: white;
   width: 100%;
 `;
