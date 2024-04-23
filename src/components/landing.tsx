@@ -1,5 +1,5 @@
-import React from "react";
-import { LandingStyle, CircleStyle, Test } from "../styles/landing.style";
+// import React from "react";
+import { LandingStyle } from "../styles/landing.style"; // , CircleStyle, Test
 
 const Landing = () => {
   return (
