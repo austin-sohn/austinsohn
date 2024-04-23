@@ -16,11 +16,7 @@ class Header extends React.Component<{}> {
           <Button
             id="home-button"
             variant="text"
-            onClick={() =>
-              document
-                .getElementById("Landing")!
-                .scrollIntoView({ behavior: "smooth" })
-            } // temporarily set to "Landing". "HomePage doesn't work"
+            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} // temporarily set to "Landing". "HomePage doesn't work"
             color="white"
           >
             AS
