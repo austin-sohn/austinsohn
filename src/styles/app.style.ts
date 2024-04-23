@@ -12,17 +12,21 @@ const HomePage = styled.div`
 `;
 
 const ScrollStyle = styled.div`
-  height: 100vh;
-  overflow-y: auto;
+  /* &::-webkit-scrollbar {
+    width: 10px;
+  }
 
-  &::-webkit-scrollbar {
-    width: 5px;
-    border: 1px solid transparent;
+  &::-webkit-scrollbar-track {
+    background: #f2f2f2;
   }
+
   &::-webkit-scrollbar-thumb {
-    background: grey;
-    border-radius: 5px;
+    background: #bdbdbd;
   }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: #6e6e6e;
+  } */
 `;
 
 export { HomePage, ScrollStyle };
