@@ -1,17 +1,27 @@
 import React from "react";
 import ProjectStyle from "../styles/project.style";
+import Card from "@mui/material/Card";
+import CardContent from "@mui/material/CardContent";
+import CardMedia from "@mui/material/CardMedia";
+import Typography from "@mui/material/Typography";
+import { CardActionArea } from "@mui/material";
 class Projects extends React.Component<{}> {
   render() {
     return (
       <ProjectStyle id="Projects">
-        <p>
-          Projects Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-          eget metus pretium, euismod lectus id, ultrices purus. Donec ut tempus
-          risus, eget tempor nulla. Morbi dolor risus, placerat et pellentesque
-          vitae, eleifend id tortor. Donec id justo maximus, suscipit dui a,
-          ultrices tellus. Fusce eget ullamcorper sem. Nullam iaculis viverra
-          urna ac molestie. Vestibulum vel sagittis lorem.
-        </p>
+        <Card sx={{ maxWidth: 345 }}>
+          <CardActionArea>
+            <CardMedia component="img" height="140" image="" alt="test" />
+            <CardContent>
+              <Typography gutterBottom variant="h5" component="div">
+                Project1
+              </Typography>
+              <Typography variant="body2" color="text.secondary">
+                Some Project Description
+              </Typography>
+            </CardContent>
+          </CardActionArea>
+        </Card>
       </ProjectStyle>
     );
   }
