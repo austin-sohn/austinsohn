@@ -9,7 +9,6 @@ class Landing extends React.Component {
     const handleClick = (value: string) => () => {
       const element = document.getElementById(value)!;
       const y = element.getBoundingClientRect().top + yOffset;
-      console.log(element);
       window.scrollTo({ top: y, behavior: "smooth" });
     };
     return (
