@@ -1,46 +1,32 @@
+// https://github.com/austin-sohn/Compilers-and-Languages-project
 import React from "react";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 
-class AICard extends React.Component<{}> {
+class CompilerCard extends React.Component<{}> {
   render() {
     return (
       <div>
         <CardContent>
           <Typography variant="h5" component="div">
-            AI Projects
+            Compilers Project
           </Typography>
           <Typography sx={{ mb: 1.5 }} color="text.secondary">
-            Pygame and Python
+            C++
           </Typography>
           <Typography variant="body2">
             <ul>
               <li>
-                Project 1: Wolf, Goat, and Cabbage{" "}
-                <ul>
-                  <li>
-                    Uses breadth and depth first search algorithm to solve the
-                    wolf, goat, and cabbage problem.
-                  </li>
-                </ul>
+                Parses through each individual letter in a text file to execute
+                a program
               </li>
-
-              <li>
-                Project 2: Game of Nim
-                <ul>
-                  <li>
-                    Play the game of nim in the command prompt against an AI.
-                  </li>
-                </ul>
-              </li>
-              <li>
-                Project 3: Game of Nim Extension
-                <ul>
-                  <li>Play the game of nim with a GUI against an AI.</li>
-                </ul>
-              </li>
+              <li>Ignores comments</li>
+              <li>Creates integer variables</li>
+              <li>Assigns variables with integers</li>
+              <li>Computes an expression</li>
+              <li>Displays text</li>
             </ul>
           </Typography>
         </CardContent>
@@ -59,4 +45,4 @@ class AICard extends React.Component<{}> {
     );
   }
 }
-export default AICard;
+export default CompilerCard;

@@ -13,7 +13,7 @@ class PortfolioCard extends React.Component<{}> {
             Portfolio Website
           </Typography>
           <Typography sx={{ mb: 1.5 }} color="text.secondary">
-            Html, React, Typescript, Styled Components
+            Html, React, Styled Components, and Typescript
           </Typography>
         </CardContent>
         <CardActions>
