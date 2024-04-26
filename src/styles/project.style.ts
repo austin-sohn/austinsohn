@@ -10,7 +10,7 @@ const ProjectStyle = styled.div`
 `;
 const CardStyle = styled.div`
   margin-left: 5px;
-  width: 250px;
+  width: 275px;
 `;
 
 export { ProjectStyle, CardStyle };

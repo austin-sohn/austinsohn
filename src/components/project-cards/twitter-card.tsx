@@ -12,10 +12,14 @@ class TwitterCard extends React.Component<{}> {
           <Typography variant="h5" component="div">
             Twitter Backend Clone
           </Typography>
-          <Typography sx={{ mb: 1.5 }} color="text.secondary">
+          <Typography
+            component={"span"}
+            sx={{ mb: 1.5 }}
+            color="text.secondary"
+          >
             AWS, DynamoDB, Foreman, HAProxy, and sqlite-utils
           </Typography>
-          <Typography variant="body2">
+          <Typography component={"span"} variant="body2">
             <ul>
               <li>Create an account</li>
               <li>See own post history or post history of others</li>

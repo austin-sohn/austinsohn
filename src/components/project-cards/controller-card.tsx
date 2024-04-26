@@ -12,10 +12,14 @@ class ControllerCard extends React.Component<{}> {
           <Typography variant="h5" component="div">
             Custom 4 button controller
           </Typography>
-          <Typography sx={{ mb: 1.5 }} color="text.secondary">
+          <Typography
+            component={"span"}
+            sx={{ mb: 1.5 }}
+            color="text.secondary"
+          >
             Arduino
           </Typography>
-          <Typography variant="body2">
+          <Typography component={"span"} variant="body2">
             Created a custom 4 button controller on a breadboard with an arduino
             with some sample games to play.
           </Typography>

@@ -12,10 +12,14 @@ class TwitchBotCard extends React.Component<{}> {
           <Typography variant="h5" component="div">
             Twitch Bot
           </Typography>
-          <Typography sx={{ mb: 1.5 }} color="text.secondary">
+          <Typography
+            component={"span"}
+            sx={{ mb: 1.5 }}
+            color="text.secondary"
+          >
             Javascript, sqlite3, Twitch API
           </Typography>
-          <Typography variant="body2">
+          <Typography component={"span"} variant="body2">
             <ul>
               <li>Bot connects to given twitch stream</li>
               <li>Create and delete text commands from the database</li>

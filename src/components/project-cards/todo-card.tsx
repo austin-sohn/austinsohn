@@ -12,10 +12,14 @@ class TodoCard extends React.Component<{}> {
           <Typography variant="h5" component="div">
             Todo list with GUI
           </Typography>
-          <Typography sx={{ mb: 1.5 }} color="text.secondary">
+          <Typography
+            component={"span"}
+            sx={{ mb: 1.5 }}
+            color="text.secondary"
+          >
             QtPy, sqlite-utils, and Tkinter
           </Typography>
-          <Typography variant="body2">
+          <Typography component={"span"} variant="body2">
             <ul>
               <li>Add or remove from list</li>
               <li>Save and export list</li>

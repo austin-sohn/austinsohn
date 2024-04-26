@@ -13,7 +13,7 @@ class Projects extends React.Component<{}> {
     return (
       <ProjectStyle id="Projects">
         <CardStyle>
-          <Card sx={{ minWidth: 275 }}>
+          <Card>
             <TwitterCard />
             <TodoCard />
             <ControllerCard />

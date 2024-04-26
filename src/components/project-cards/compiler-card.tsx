@@ -13,10 +13,14 @@ class CompilerCard extends React.Component<{}> {
           <Typography variant="h5" component="div">
             Compilers Project
           </Typography>
-          <Typography sx={{ mb: 1.5 }} color="text.secondary">
+          <Typography
+            component={"span"}
+            sx={{ mb: 1.5 }}
+            color="text.secondary"
+          >
             C++
           </Typography>
-          <Typography variant="body2">
+          <Typography component={"span"} variant="body2">
             <ul>
               <li>
                 Parses through each individual letter in a text file to execute

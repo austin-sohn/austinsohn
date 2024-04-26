@@ -12,10 +12,14 @@ class AICard extends React.Component<{}> {
           <Typography variant="h5" component="div">
             AI Projects
           </Typography>
-          <Typography sx={{ mb: 1.5 }} color="text.secondary">
+          <Typography
+            component={"span"}
+            sx={{ mb: 1.5 }}
+            color="text.secondary"
+          >
             Pygame and Python
           </Typography>
-          <Typography variant="body2">
+          <Typography component={"span"} variant="body2">
             <ul>
               <li>
                 Project 1: Wolf, Goat, and Cabbage{" "}
