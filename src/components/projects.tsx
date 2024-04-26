@@ -8,6 +8,7 @@ import AICard from "./project-cards/ai-card";
 import PortfolioCard from "./project-cards/portfolio-card";
 import TwitchBotCard from "./project-cards/twitchbot-card";
 import CompilerCard from "./project-cards/compiler-card";
+import ReminderCard from "./project-cards/reminder-card";
 class Projects extends React.Component<{}> {
   render() {
     return (
@@ -21,6 +22,7 @@ class Projects extends React.Component<{}> {
             <PortfolioCard />
             <TwitchBotCard />
             <CompilerCard />
+            <ReminderCard />
           </Card>
         </CardStyle>
       </ProjectStyle>
