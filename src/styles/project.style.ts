@@ -8,9 +8,5 @@ const ProjectStyle = styled.div`
   display: flex;
   flex-direction: row;
 `;
-const CardStyle = styled.div`
-  margin-left: 5px;
-  width: 275px;
-`;
 
-export { ProjectStyle, CardStyle };
+export default ProjectStyle;
