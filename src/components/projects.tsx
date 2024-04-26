@@ -5,6 +5,8 @@ import TwitterCard from "./project-cards/twitter-card";
 import TodoCard from "./project-cards/todo-card";
 import ControllerCard from "./project-cards/controller-card";
 import AICard from "./project-cards/ai-card";
+import PortfolioCard from "./project-cards/portfolio-card";
+import TwitchBotCard from "./project-cards/twitchbot-card";
 class Projects extends React.Component<{}> {
   render() {
     return (
@@ -14,6 +16,8 @@ class Projects extends React.Component<{}> {
           <TodoCard />
           <ControllerCard />
           <AICard />
+          <PortfolioCard />
+          <TwitchBotCard />
         </Card>
       </ProjectStyle>
     );
