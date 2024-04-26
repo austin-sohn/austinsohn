@@ -46,7 +46,7 @@ class Footer extends React.Component<{}> {
         </IconStyle>
         <CreditStyle>
           <ThemeProvider theme={theme}>
-            <text>Credits: Buttons and icons are from </text>
+            <span>Credits: Buttons and icons are from </span>
             <Button
               variant="outlined"
               href="https://mui.com/material-ui/"
@@ -57,7 +57,7 @@ class Footer extends React.Component<{}> {
             >
               MUI
             </Button>
-            <text> and the background is Endless Constellation from </text>
+            <span> and the background is Endless Constellation from </span>
 
             <Button
               variant="outlined"
