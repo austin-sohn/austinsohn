@@ -32,7 +32,7 @@ class Footer extends React.Component<{}> {
               target="_blank"
               rel="noreferrer"
             >
-              <LinkedInIcon style={{ color: "white" }} />
+              <LinkedInIcon sx={{ marginLeft: 2 }} style={{ color: "white" }} />
             </a>
             <a
               href="https://www.youtube.com/@tohroo/videos"
@@ -40,7 +40,10 @@ class Footer extends React.Component<{}> {
               rel="noreferrer"
               id="youtube-link"
             >
-              <YouTubeIcon style={{ color: "white" }}></YouTubeIcon>
+              <YouTubeIcon
+                sx={{ marginLeft: 2 }}
+                style={{ color: "white" }}
+              ></YouTubeIcon>
             </a>
           </IconButton>
         </IconStyle>
