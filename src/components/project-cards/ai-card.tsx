@@ -1,5 +1,5 @@
 import React from "react";
-import Button from "@mui/material/Button";
+import OpenInNewIcon from "@mui/icons-material/OpenInNew";
 import CardStyle from "../../styles/cards.style";
 class AICard extends React.Component<{}> {
   render() {
@@ -9,11 +9,10 @@ class AICard extends React.Component<{}> {
         <span>Pygame and Python</span>
         <ul>
           <li>
-            Project 1: Wolf, Goat, and Cabbage{" "}
+            Project 1: Wolf, Goat, and Cabbage
             <ul>
               <li>
-                Uses breadth and depth first search algorithm to solve the wolf,
-                goat, and cabbage problem.
+                BFS/DFS algorithm to solve the wolf, goat, and cabbage problem.
               </li>
             </ul>
           </li>
@@ -21,25 +20,24 @@ class AICard extends React.Component<{}> {
           <li>
             Project 2: Game of Nim
             <ul>
-              <li>Play the game of nim in the command prompt against an AI.</li>
+              <li>Play game of nim in command prompt against AI.</li>
             </ul>
           </li>
           <li>
             Project 3: Game of Nim Extension
             <ul>
-              <li>Play the game of nim with a GUI against an AI.</li>
+              <li>Project 2 with GUI.</li>
             </ul>
           </li>
         </ul>
-        <Button size="small">
-          <a
-            href="https://github.com/austin-sohn/Computer-System-Architecture-Project"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Learn More
-          </a>
-        </Button>
+
+        <a
+          href="https://github.com/austin-sohn/Computer-System-Architecture-Project"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <OpenInNewIcon />
+        </a>
       </CardStyle>
     );
   }
