@@ -49,7 +49,7 @@ class Footer extends React.Component<{}> {
         </IconStyle>
         <CreditStyle>
           <ThemeProvider theme={theme}>
-            <span>Credits: Buttons and icons are from </span>
+            <span>Credits: Icons are from </span>
             <Button
               variant="outlined"
               href="https://mui.com/material-ui/"
@@ -60,7 +60,7 @@ class Footer extends React.Component<{}> {
             >
               MUI
             </Button>
-            <span> and the background is Endless Constellation from </span>
+            <span>, the background is Endless Constellation from </span>
 
             <Button
               variant="outlined"
@@ -71,6 +71,17 @@ class Footer extends React.Component<{}> {
               color="white"
             >
               SVGBackgrounds
+            </Button>
+            <span>, and buttons are from </span>
+            <Button
+              variant="outlined"
+              href="https://codepen.io/nuhmanpk/pen/XWqBrae"
+              target="_blank"
+              rel="noreferrer"
+              sx={{ minHeight: 0, minWidth: 0, padding: 0.1 }}
+              color="white"
+            >
+              here
             </Button>
           </ThemeProvider>
         </CreditStyle>
