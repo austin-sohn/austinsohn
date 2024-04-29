@@ -3,7 +3,7 @@ import styled from "styled-components";
 const CardStyle = styled.a`
   background-color: white;
   color: black;
-  max-height: 250px;
+  min-height: 250px;
   width: auto;
   max-width: 300px;
   border-radius: 10px;
