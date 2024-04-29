@@ -9,7 +9,7 @@ const HeaderStyle = styled.div`
   height: 55.5px;
   z-index: 1;
   border-bottom: 1px solid;
-  border-color: lightgrey;
+  border-color: grey;
 `;
 const HeaderRight = styled(HeaderStyle)`
   width: 85px;
