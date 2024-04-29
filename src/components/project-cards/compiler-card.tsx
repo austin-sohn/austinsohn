@@ -1,15 +1,18 @@
 // https://github.com/austin-sohn/Compilers-and-Languages-project
 import React from "react";
-import Button from "@mui/material/Button";
-import CardStyle from "../../styles/cards.style";
+import { CardStyle, ULStyle, H3Style } from "../../styles/cards.style";
 class CompilerCard extends React.Component<{}> {
   render() {
     return (
-      <CardStyle>
-        <h3>Compilers Project</h3>
-        <span>C++</span>
+      <CardStyle
+        href="https://github.com/austin-sohn/Compilers-and-Languages-project"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <H3Style>Compilers Project</H3Style>
+        <em>C++</em>
 
-        <ul>
+        <ULStyle>
           <li>
             Parses through each individual letter in a text file to execute a
             program
@@ -19,16 +22,7 @@ class CompilerCard extends React.Component<{}> {
           <li>Assigns variables with integers</li>
           <li>Computes an expression</li>
           <li>Displays text</li>
-        </ul>
-        <Button size="small">
-          <a
-            href="https://github.com/austin-sohn/Computer-System-Architecture-Project"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Learn More
-          </a>
-        </Button>
+        </ULStyle>
       </CardStyle>
     );
   }

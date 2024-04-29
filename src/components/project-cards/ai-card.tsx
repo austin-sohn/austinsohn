@@ -1,13 +1,16 @@
 import React from "react";
-import OpenInNewIcon from "@mui/icons-material/OpenInNew";
-import CardStyle from "../../styles/cards.style";
+import { CardStyle, ULStyle, H3Style } from "../../styles/cards.style";
 class AICard extends React.Component<{}> {
   render() {
     return (
-      <CardStyle>
-        <h2>AI Projects</h2>
-        <span>Pygame and Python</span>
-        <ul>
+      <CardStyle
+        href="https://github.com/austin-sohn/AI-Projects"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <H3Style>AI Projects</H3Style>
+        <em>Pygame and Python</em>
+        <ULStyle>
           <li>
             Project 1: Wolf, Goat, and Cabbage
             <ul>
@@ -29,15 +32,7 @@ class AICard extends React.Component<{}> {
               <li>Project 2 with GUI.</li>
             </ul>
           </li>
-        </ul>
-
-        <a
-          href="https://github.com/austin-sohn/Computer-System-Architecture-Project"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <OpenInNewIcon />
-        </a>
+        </ULStyle>
       </CardStyle>
     );
   }

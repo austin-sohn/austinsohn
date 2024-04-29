@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectStyle from "../styles/project.style";
+import { ProjectStyle, CardContainer } from "../styles/project.style";
 import TwitterCard from "./project-cards/twitter-card";
 import TodoCard from "./project-cards/todo-card";
 import ControllerCard from "./project-cards/controller-card";
@@ -13,14 +13,17 @@ class Projects extends React.Component<{}> {
   render() {
     return (
       <ProjectStyle id="Projects">
-        <TwitterCard />
-        <AICard />
-        <ControllerCard />
-        <PortfolioCard />
-        <TwitchBotCard />
-        <CompilerCard />
-        <ReminderCard />
-        <TodoCard />
+        <h2>Projects</h2>
+        <CardContainer>
+          <TwitterCard />
+          <AICard />
+          <ControllerCard />
+          <PortfolioCard />
+          <TwitchBotCard />
+          <CompilerCard />
+          <ReminderCard />
+          <TodoCard />
+        </CardContainer>
       </ProjectStyle>
     );
   }

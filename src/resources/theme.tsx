@@ -22,6 +22,7 @@ const theme = createTheme({
       main: "#FFFFFF",
     },
   },
+
   typography: {
     button: {
       textTransform: "none",
