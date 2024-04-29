@@ -5,10 +5,8 @@ const HomePage = styled.div`
   position: relative;
   color: white;
   width: 100%;
-  min-height: 100%;
   flex-direction: column;
-  scrollbar-width: thin;
-  scrollbar-color: red;
+  background-position: fixed;
 `;
 
 const ScrollStyle = styled.div`
