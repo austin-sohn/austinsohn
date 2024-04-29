@@ -7,7 +7,7 @@ const HeaderStyle = styled.div`
   color: white;
   width: 100%;
   height: 55.5px;
-  z-index: 1;
+  z-index: 2;
   border-bottom: 1px solid;
   border-color: grey;
 `;
