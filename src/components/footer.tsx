@@ -49,7 +49,7 @@ class Footer extends React.Component<{}> {
         </IconStyle>
         <CreditStyle>
           <ThemeProvider theme={theme}>
-            <span>Credits: Icons are from </span>
+            <span>Credits: Icons and textfields are from </span>
             <Button
               variant="outlined"
               href="https://mui.com/material-ui/"
