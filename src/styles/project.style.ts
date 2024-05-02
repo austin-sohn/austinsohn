@@ -3,11 +3,11 @@ import styled from "styled-components";
 const ProjectStyle = styled.div`
   margin-top: 55.5px;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
 `;
 const CardContainer = styled.div`
   display: grid;
+  place-items: center;
   grid-template-columns: repeat(4, 1fr);
 
   @media screen and (max-width: 1435px) {
