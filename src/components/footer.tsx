@@ -72,17 +72,6 @@ class Footer extends React.Component<{}> {
             >
               SVGBackgrounds
             </Button>
-            <span>, and buttons are from </span>
-            <Button
-              variant="outlined"
-              href="https://codepen.io/nuhmanpk/pen/XWqBrae"
-              target="_blank"
-              rel="noreferrer"
-              sx={{ minHeight: 0, minWidth: 0, padding: 0.1 }}
-              color="white"
-            >
-              here
-            </Button>
           </ThemeProvider>
         </CreditStyle>
       </FooterStyle>
