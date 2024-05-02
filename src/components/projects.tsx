@@ -1,6 +1,6 @@
 import React from "react";
 import { ProjectStyle, CardContainer } from "../styles/project.style";
-import TwitterCard from "./project-cards/twitter-card";
+import SocialMediaCard from "./project-cards/sm-card";
 import TodoCard from "./project-cards/todo-card";
 import ControllerCard from "./project-cards/controller-card";
 import AICard from "./project-cards/ai-card";
@@ -14,7 +14,7 @@ class Projects extends React.Component<{}> {
     return (
       <ProjectStyle id="Projects">
         <CardContainer>
-          <TwitterCard />
+          <SocialMediaCard />
           <AICard />
           <ControllerCard />
           <PortfolioCard />
