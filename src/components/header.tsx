@@ -1,5 +1,5 @@
 import React from "react";
-import { HeaderStyle, HeaderRight } from "../styles/header.style";
+import { HeaderStyle, ButtonStyle, HeaderRight } from "../styles/header.style";
 import { IconButton } from "@mui/material";
 import Button from "@mui/material/Button";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -10,6 +10,13 @@ import theme from "../resources/theme";
 
 class Header extends React.Component<{}> {
   render() {
+    // some jank way to add offset to window.ScrollTo
+    const yOffset = -55.5;
+    const handleClick = (value: string) => () => {
+      const element = document.getElementById(value)!;
+      const y = element.getBoundingClientRect().top + yOffset;
+      window.scrollTo({ top: y, behavior: "smooth" });
+    };
     return (
       <ThemeProvider theme={theme}>
         <HeaderStyle id="Header">
@@ -20,6 +27,25 @@ class Header extends React.Component<{}> {
             color="white"
           >
             AS
+          </Button>
+
+          <Button
+            id="projects-button"
+            variant="text"
+            onClick={handleClick("Projects")}
+            color="white"
+          >
+            <span>Projects</span>
+            <i></i>
+          </Button>
+          <Button
+            id="contact-button"
+            variant="text"
+            onClick={handleClick("Contact")}
+            color="white"
+          >
+            <span>Contact</span>
+            <i></i>
           </Button>
 
           <HeaderRight id="Links">
