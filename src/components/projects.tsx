@@ -13,6 +13,7 @@ class Projects extends React.Component<{}> {
   render() {
     return (
       <ProjectStyle id="Projects">
+        <h2>Projects</h2>
         <CardContainer>
           <SocialMediaCard />
           <AICard />
