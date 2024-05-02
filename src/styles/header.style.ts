@@ -15,12 +15,5 @@ const HeaderRight = styled(HeaderStyle)`
   width: 85px;
   right: 0;
 `;
-const ButtonStyle = styled.button`
-  margin-left: 5%;
-  position: relative;
-  color: #ffffff;
-  background: transparent;
 
-  border: none;
-`;
-export { HeaderStyle, ButtonStyle, HeaderRight };
+export { HeaderStyle, HeaderRight };

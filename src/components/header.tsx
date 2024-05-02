@@ -1,5 +1,5 @@
 import React from "react";
-import { HeaderStyle, ButtonStyle, HeaderRight } from "../styles/header.style";
+import { HeaderStyle, HeaderRight } from "../styles/header.style";
 import { IconButton } from "@mui/material";
 import Button from "@mui/material/Button";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -23,7 +23,7 @@ class Header extends React.Component<{}> {
           <Button
             id="home-button"
             variant="text"
-            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })} // temporarily set to "Landing". "HomePage doesn't work"
+            onClick={handleClick("Landing")} // temporarily set to "Landing". "HomePage doesn't work"
             color="white"
           >
             AS
@@ -36,7 +36,6 @@ class Header extends React.Component<{}> {
             color="white"
           >
             <span>Projects</span>
-            <i></i>
           </Button>
           <Button
             id="contact-button"
@@ -45,7 +44,6 @@ class Header extends React.Component<{}> {
             color="white"
           >
             <span>Contact</span>
-            <i></i>
           </Button>
 
           <HeaderRight id="Links">
