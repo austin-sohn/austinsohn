@@ -8,10 +8,11 @@ const LandingStyle = styled.div`
   justify-content: center;
   align-items: center;
   text-align: center;
-  min-height: 100vh;
 `;
 const IntroStyle = styled.div`
-  width: 50vw;
+  width: 25vw;
   border: 1px white solid;
 `;
-export { LandingStyle, IntroStyle };
+const TextStyle = styled.h2``;
+
+export { LandingStyle, IntroStyle, TextStyle };

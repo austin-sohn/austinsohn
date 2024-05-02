@@ -1,6 +1,6 @@
 // import React from "react";
 import React from "react";
-import { LandingStyle, IntroStyle } from "../styles/landing.style"; //
+import { LandingStyle, IntroStyle, TextStyle } from "../styles/landing.style"; //
 
 class Landing extends React.Component {
   render() {
