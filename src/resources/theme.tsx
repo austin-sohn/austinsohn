@@ -1,5 +1,4 @@
 import { createTheme } from "@mui/material/styles";
-
 declare module "@mui/material/styles" {
   interface Palette {
     white: Palette["primary"];
@@ -9,7 +8,6 @@ declare module "@mui/material/styles" {
     white?: PaletteOptions["primary"];
   }
 }
-
 declare module "@mui/material/Button" {
   interface ButtonPropsColorOverrides {
     white: true;
