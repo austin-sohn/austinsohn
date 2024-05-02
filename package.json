@@ -1,7 +1,7 @@
 {
   "name": "austin-sohn.github.io",
   "version": "0.1.0",
-  "homepage": "https://austin-sohn.github.io",
+  "homepage": "https://austin-sohn.github.io/austin-sohn.github.io",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.4",
