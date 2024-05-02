@@ -14,7 +14,10 @@ class Header extends React.Component<{}> {
     const yOffset = -55.5;
     const handleClick = (value: string) => () => {
       const element = document.getElementById(value)!;
-      const y = element.getBoundingClientRect().top + yOffset;
+      const y = element.getBoundingClientRect().top + window.scrollY + yOffset;
+      console.log(element);
+      console.log(element.getBoundingClientRect().top);
+      console.log(y);
       window.scrollTo({ top: y, behavior: "smooth" });
     };
     return (
