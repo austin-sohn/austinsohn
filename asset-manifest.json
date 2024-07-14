@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/austinsohn/static/css/main.e6c13ad2.css",
+    "main.js": "/austinsohn/static/js/main.6298c7af.js",
+    "static/media/endless-constellation.svg": "/austinsohn/static/media/endless-constellation.f701ac7876618c57d1b690f6251ea0c5.svg",
+    "index.html": "/austinsohn/index.html",
+    "main.e6c13ad2.css.map": "/austinsohn/static/css/main.e6c13ad2.css.map",
+    "main.6298c7af.js.map": "/austinsohn/static/js/main.6298c7af.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.6298c7af.js"
+  ]
+}
