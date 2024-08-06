@@ -1,2 +1,1 @@
-- npm install
-- npm start
+https://austin-sohn.github.io/austinsohn/
